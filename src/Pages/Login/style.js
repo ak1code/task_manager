@@ -1,4 +1,3 @@
-import { Button, Col } from "antd";
 import styled from "styled-components";
 
 export const FormWrapper = styled.div`
@@ -25,7 +24,7 @@ export const MainDiv = styled.div`
   margin-top: 2rem;
 `;
 
-export const ImageCol = styled(Col)`
+export const ImageCol = styled.div`
   width: 60%;
   align-items: center;
   @media (max-width: 960px) {
@@ -33,7 +32,7 @@ export const ImageCol = styled(Col)`
   }
 `;
 
-export const FormCol = styled(Col)`
+export const FormCol = styled.div`
   width: 40%;
   align-items: center;
   align-content: center;
@@ -43,6 +42,6 @@ export const FormCol = styled(Col)`
   /* border: 1px solid red; */
 `;
 
-export const FromButton = styled(Button)`
+export const FromButton = styled.button`
   width: 100%;
 `;
