@@ -1,0 +1,7 @@
+.navChild {
+  position: absolute;
+  display: none;
+}
+.navChild:hover {
+  display: contents;
+}
